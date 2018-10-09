@@ -1,0 +1,14 @@
+.NavigationBar {
+  display: flex;
+  flex-flow: row;
+  align-items: flex-start;
+  flex-grow: 1;
+}
+
+.NavigationBar a,
+.NavigationBar a:visited,
+.NavigationBar a:active {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px;
+}
